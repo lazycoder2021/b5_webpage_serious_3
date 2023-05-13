@@ -10,7 +10,7 @@
     }
 
     .xxx{
-        display:none;
+        display:none!important;
     }
 
 
@@ -371,7 +371,7 @@
     }
 
     .xxx {
-        display: none;
+        display: none!important;
     }
 
     .banner-section {
