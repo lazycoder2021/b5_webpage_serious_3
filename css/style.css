@@ -9,6 +9,10 @@
         padding:0px!important; 
     }
 
+    .xxx{
+        display:none;
+    }
+
 
     .banner-section {
         text-align: center!important;
@@ -109,6 +113,7 @@
     }
 
     .event-wrapper h1{
+        
         margin:40px auto!important;
     }
 
@@ -365,6 +370,9 @@
         padding: 0px !important;
     }
 
+    .xxx {
+        display: none;
+    }
 
     .banner-section {
         text-align: center !important;
@@ -721,4 +729,706 @@
 
 }
 
+@media only screen and (min-width:481px) and (max-width:991px){
+    /*general*/
+    .banner-section {
+        text-align: center !important;
+        background-color: #016CC7 !important;
+        height: 80vh;
+        padding: 0px !important;
+        color: white !important;
+        margin: 0px !important;
+    }
+
+    .banner-wrapper {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .text-top {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+        .text-top h2 {
+            //border: 1px solid white;
+            color: #FFC000 !important;
+            font-size: 50px;
+            font-weight: 800;
+        }
+
+        .text-top span {
+            font-weight: 300;
+            color: #FFC000 !important;
+            font-size: 25px;
+        }
+
+    .text-mdl h1 {
+        font-weight: 100;
+        font-size: 42px;
+        padding: 0px 15px !important;
+    }
+
+    .text-mdl h6 {
+        font-size: 25px;
+        margin: 20px auto !important;
+        font-weight: 100;
+    }
+
+    .text-mdl h3 {
+        font-weight: 100;
+    }
+
+    .text-bottom {
+        //border:1px solid white;
+        margin: 70px auto 0px !important;
+        width: 250px;
+        padding: 15px 30px;
+        background-color: #dd5138;
+        font-weight: 800;
+    }
+
+    .nav-dots {
+        //border:1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 50px;
+        height: 200px;
+        top: 40%;
+        right: 5px;
+        cursor: pointer;
+    }
+
+    .nav-dot {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 3px auto !important;
+        //border: 1px solid white;
+        background-color: #dd5138;
+    }
+
+
+
+    .ti-arrow-right {
+        content: "\e66f";
+        padding-left: 10px !important;
+        font-weight: 800;
+    }
+
+    .event-section {
+        height: 60vh;
+    }
+
+    .event-wrapper {
+        text-align: center;
+        height: 100%;
+    }
+
+        .event-wrapper h1 {
+            margin: 40px auto 0px !important;
+        }
+
+    .event-section-inner {
+        //margin: 0px !important;
+        //padding: 0px !important;
+        height: 100%;
+    }
+
+    .event-card {
+        //border:1px solid black;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .icon {
+        font-size: 80px;
+        color: #016CC7 !important;
+    }
+
+    .speakers-section {
+        height: auto;
+        //border:1px solid blue;
+    }
+
+
+    .speakers-inner-section {
+        height: 100%;
+        //margin: 0px !important;
+        //padding: 0px !important;
+    }
+
+    .speakers-wrapper {
+        height: 100%;
+        text-align: center;
+    }
+
+        .speakers-wrapper h1 {
+            margin: 30px auto 20px !important;
+        }
+
+    .speaker_card {
+        //border:1px solid red;
+        height: 30%;
+        padding: 0px 20px !important;
+        margin: 30px auto !important;
+    }
+
+        .speaker_card h3 {
+            margin: 10px auto !important;
+        }
+
+        .speaker_card p {
+            margin: 10px auto !important;
+        }
+
+    .icons_cont {
+        //border:1px solid black;
+        display: flex;
+        justify-content: space-around;
+        width: 200px;
+        margin: 3px auto !important;
+        padding: 10px 0px !important;
+    }
+
+    .ti-facebook {
+        color: #3B5998 !important;
+    }
+
+    .ti-twitter-alt {
+        color: #4099FF !important;
+    }
+
+    .ti-linkedin {
+        color: #016CC7 !important;
+    }
+
+    .tickets-section {
+        height: 65vh;
+        background-color: #FCD93B;
+    }
+
+    .tickets-wrapper {
+        text-align: center;
+    }
+
+        .tickets-wrapper h1 {
+            margin: 50px auto 30px;
+        }
+
+        .tickets-wrapper p {
+        }
+
+    .price {
+        font-size: 64px;
+        font-weight: 100;
+        color: #DD5138;
+    }
+
+    .buy {
+        display: block;
+        //border:1px solid black;
+        margin: 10px auto;
+        padding: 15px 40px;
+        background-color: #dd5138;
+        color: white;
+        width: 300px;
+    }
+
+    .tickets-wrapper-left, .tickets-wrapper-right {
+        margin: 10px auto !important;
+    }
+
+    .entry_pass {
+        letter-spacing: 1.2px;
+    }
+
+    .schedule-section {
+        height: 75vh;
+        //border:1px solid red;
+    }
+
+        .schedule-section h1 {
+            margin: 50px auto 30px !important;
+        }
+
+    .schedule-inner-section {
+        //margin: 0px !important;
+    }
+
+    .tabs-container {
+        //border:1px solid black;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        .tabs-container span {
+            padding: 0px 15px !important;
+            cursor: pointer;
+        }
+
+        .tabs-container .btn.active {
+            color: blue;
+        }
+
+    .schedule-wrapper {
+        height: 90%;
+        //border:1px solid black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .schedule-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px !important;
+    }
+
+    .sch-card-left {
+        padding-left: 5px;
+    }
+
+    .schedule-wrapper .sch-card-left img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .sch-card-right h3 {
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .sch-card-right h4 {
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .sch-card-right p {
+        font-size: 16px;
+    }
+
+    .sch-card-right {
+        padding-left: 15px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .contact-section {
+        height: 75vh;
+        background-color: #3a3a3a;
+    }
+
+    .contact-inner-section {
+        //padding: 0px !important;
+        //margin: 0px !important;
+        //height:100%;
+    }
+
+    .contact-wrapper {
+        height: 100%;
+        color: white;
+    }
+
+    .contact-form label {
+        color: white !important;
+    }
+
+    .contact-form .btn {
+        //border:1px solid white;
+        background: #B8A13A;
+        color: #353535;
+        font-weight: 800;
+    }
+
+    .contact-wrapper h1 {
+        margin: 50px auto 0px !important;
+        color: white;
+        font-weight: 100;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .spl {
+        padding-bottom: 20px !important;
+    }
+
+    .tweet {
+        padding: 0px 30px !important;
+        //border:1px solid white;
+        text-align: center;
+    }
+
+    .tag {
+        color: #337ab7;
+    }
+
+    .footer-section {
+        height: 40px;
+        background: black;
+    }
+
+}
+
+@media only screen and (min-width:992px){
+    /*general*/
+    .banner-section {
+        text-align: center !important;
+        background-color: #016CC7 !important;
+        height: 80vh;
+        padding: 0px !important;
+        color: white !important;
+        margin: 0px !important;
+    }
+
+    .banner-wrapper {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .text-top {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+        .text-top h2 {
+            //border: 1px solid white;
+            color: #FFC000 !important;
+            font-size: 50px;
+            font-weight: 800;
+        }
+
+        .text-top span {
+            font-weight: 300;
+            color: #FFC000 !important;
+            font-size: 25px;
+        }
+
+    .text-mdl h1 {
+        font-weight: 100;
+        font-size: 42px;
+        padding: 0px 15px !important;
+    }
+
+    .text-mdl h6 {
+        font-size: 25px;
+        margin: 20px auto !important;
+        font-weight: 100;
+    }
+
+    .text-mdl h3 {
+        font-weight: 100;
+    }
+
+    .text-bottom {
+        //border:1px solid white;
+        margin: 70px auto 0px !important;
+        width: 250px;
+        padding: 15px 30px;
+        background-color: #dd5138;
+        font-weight: 800;
+    }
+
+    .nav-dots {
+        //border:1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 50px;
+        height: 200px;
+        top: 40%;
+        right: 5px;
+        cursor: pointer;
+    }
+
+    .nav-dot {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 3px auto !important;
+        //border: 1px solid white;
+        background-color: #dd5138;
+    }
+
+
+
+    .ti-arrow-right {
+        content: "\e66f";
+        padding-left: 10px !important;
+        font-weight: 800;
+    }
+
+    .event-section {
+        height: 60vh;
+    }
+
+    .event-wrapper {
+        text-align: center;
+        height: 100%;
+    }
+
+        .event-wrapper h1 {
+            margin: 40px auto 0px !important;
+        }
+
+    .event-section-inner {
+        //margin: 0px !important;
+        //padding: 0px !important;
+        height: 100%;
+    }
+
+    .event-card {
+        //border:1px solid black;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .icon {
+        font-size: 80px;
+        color: #016CC7 !important;
+    }
+
+    .speakers-section {
+        height: auto;
+        //border:1px solid blue;
+    }
+
+
+    .speakers-inner-section {
+        height: 100%;
+        //margin: 0px !important;
+        //padding: 0px !important;
+    }
+
+    .speakers-wrapper {
+        height: 100%;
+        text-align: center;
+    }
+
+        .speakers-wrapper h1 {
+            margin: 30px auto 20px !important;
+        }
+
+    .speaker_card {
+        //border:1px solid red;
+        height: 30%;
+        padding: 0px 20px !important;
+        margin: 30px auto !important;
+    }
+
+        .speaker_card h3 {
+            margin: 10px auto !important;
+        }
+
+        .speaker_card p {
+            margin: 10px auto !important;
+        }
+
+    .icons_cont {
+        //border:1px solid black;
+        display: flex;
+        justify-content: space-around;
+        width: 200px;
+        margin: 3px auto !important;
+        padding: 10px 0px !important;
+    }
+
+    .ti-facebook {
+        color: #3B5998 !important;
+    }
+
+    .ti-twitter-alt {
+        color: #4099FF !important;
+    }
+
+    .ti-linkedin {
+        color: #016CC7 !important;
+    }
+
+    .tickets-section {
+        height: 65vh;
+        background-color: #FCD93B;
+    }
+
+    .tickets-wrapper {
+        text-align: center;
+    }
+
+        .tickets-wrapper h1 {
+            margin: 50px auto 30px;
+        }
+
+        .tickets-wrapper p {
+        }
+
+    .price {
+        font-size: 64px;
+        font-weight: 100;
+        color: #DD5138;
+    }
+
+    .buy {
+        display: block;
+        //border:1px solid black;
+        margin: 10px auto;
+        padding: 15px 40px;
+        background-color: #dd5138;
+        color: white;
+        width: 300px;
+    }
+
+    .tickets-wrapper-left, .tickets-wrapper-right {
+        margin: 10px auto !important;
+    }
+
+    .entry_pass {
+        letter-spacing: 1.2px;
+    }
+
+    .schedule-section {
+        height: 75vh;
+        //border:1px solid red;
+    }
+
+        .schedule-section h1 {
+            margin: 50px auto 30px !important;
+        }
+
+    .schedule-inner-section {
+        //margin: 0px !important;
+    }
+
+    .tabs-container {
+        //border:1px solid black;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        .tabs-container span {
+            padding: 0px 15px !important;
+            cursor: pointer;
+        }
+
+        .tabs-container .btn.active {
+            color: blue;
+        }
+
+    .schedule-wrapper {
+        height: 90%;
+        //border:1px solid black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .schedule-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px !important;
+    }
+
+    .sch-card-left {
+        padding-left: 5px;
+    }
+
+    .schedule-wrapper .sch-card-left img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .sch-card-right h3 {
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .sch-card-right h4 {
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .sch-card-right p {
+        font-size: 16px;
+    }
+
+    .sch-card-right {
+        padding-left: 15px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .contact-section {
+        height: 75vh;
+        background-color: #3a3a3a;
+    }
+
+    .contact-inner-section {
+        //padding: 0px !important;
+        //margin: 0px !important;
+        //height:100%;
+    }
+
+    .contact-wrapper {
+        height: 100%;
+        color: white;
+    }
+
+    .contact-form label {
+        color: white !important;
+    }
+
+    .contact-form .btn {
+        //border:1px solid white;
+        background: #B8A13A;
+        color: #353535;
+        font-weight: 800;
+    }
+
+    .contact-wrapper h1 {
+        margin: 50px auto 0px !important;
+        color: white;
+        font-weight: 100;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .spl {
+        padding-bottom: 20px !important;
+    }
+
+    .tweet {
+        padding: 0px 30px !important;
+        //border:1px solid white;
+        text-align: center;
+    }
+
+    .tag {
+        color: #337ab7;
+    }
+
+    .footer-section {
+        height: 40px;
+        background: black;
+    }
+
+
+}
 
